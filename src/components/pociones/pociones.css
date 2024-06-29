@@ -1,0 +1,15 @@
+.pocionNueva {
+  margin-right: 40%;
+  margin-left: 40%;
+  width: 20%;
+}
+
+.pocion {
+  border: 1px dotted grey;
+  margin-bottom: 5%;
+}
+
+.completada {
+  font-weight: bold;
+  border: 1px dotted RED;
+}

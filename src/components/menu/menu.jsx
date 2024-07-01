@@ -20,6 +20,11 @@ const menu = () => {
             Pociones
           </Link>
         </li>
+        <li className="menu-item">
+          <Link to="/Personajes" className="menu-link">
+            Personajes
+          </Link>
+        </li>
       </ul>
     </nav>
   );

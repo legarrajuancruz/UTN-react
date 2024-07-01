@@ -10,13 +10,13 @@ export const fetchPersonajes = async () => {
   }
 };
 
-export const fetchPersonajesById = async () => {
+export const fetchPersonajesById = async (id) => {
   try {
     const response = await fetch(
-      "https://hp-api.onrender.com/api/characters/${id}"
+      `https://hp-api.onrender.com/api/character/${id}`
     );
     const data = await response.json();
-    return data[0];
+    return data;
   } catch (error) {
     console.error("Error fetch");
     throw error;

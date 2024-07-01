@@ -34,7 +34,7 @@ const personajes = () => {
               <h3>{personaje.name}</h3>
               <p>casa: {personaje.house}</p>
               <p>Actor: {personaje.actor}</p>
-              <Link to="/Personajedetalle">Ver Detalles</Link>
+              <Link to={`/Personajedetalle/${personaje.id}`}>Ver Detalles</Link>
             </li>
           ))}
         </ul>
